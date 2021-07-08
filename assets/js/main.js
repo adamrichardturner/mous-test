@@ -53,7 +53,7 @@ const getMemberTemplate = member => {
   return `
     <li class="staff-member">
     <strong>Name: </strong><p>${member.name}</p><br>
-    <strong>Name: </strong><p>${member.occupation}</p><br>
+    <strong>Title: </strong><p>${member.occupation}</p><br>
     <img src="${member.img}">
     </li>
   `
